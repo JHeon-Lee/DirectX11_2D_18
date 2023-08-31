@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Systems\Graphics.cpp" />
+    <ClCompile Include="Systems\Keyboard.cpp" />
+    <ClCompile Include="Systems\Mouse.cpp" />
+    <ClCompile Include="Systems\Time.cpp" />
+    <ClCompile Include="Systems\Window.cpp" />
+    <ClCompile Include="Utilities\Gui.cpp" />
+    <ClCompile Include="Framework.cpp" />
+    <ClCompile Include="Utilities\DirectHelper.cpp" />
+    <ClCompile Include="Renders\Resources\VertexType.cpp" />
+    <ClCompile Include="Renders\IA\VertexBuffer.cpp" />
+    <ClCompile Include="Renders\IA\IndexBuffer.cpp" />
+    <ClCompile Include="Renders\IA\InputLayout.cpp" />
+    <ClCompile Include="Renders\Shaders\VertexShader.cpp" />
+    <ClCompile Include="Renders\Shaders\PixelShader.cpp" />
+    <ClCompile Include="Renders\Shaders\IShader.cpp" />
+    <ClCompile Include="Geometries\Rect.cpp" />
+    <ClCompile Include="Geometries\TextureRect.cpp" />
+    <ClCompile Include="Geometries\ShadedTexture.cpp" />
+    <ClCompile Include="Geometries\BlurTexture.cpp" />
+    <ClCompile Include="Utilities\RenderTexture.cpp" />
+    <ClCompile Include="Utilities\BoundingBox.cpp" />
+    <ClCompile Include="Utilities\Animator.cpp" />
+    <ClCompile Include="Renders\Resources\Texture2D.cpp" />
+    <ClCompile Include="Utilities\Path.cpp" />
+    <ClCompile Include="Utilities\String.cpp" />
+    <ClCompile Include="Geometries\AnimationRect.cpp" />
+    <ClCompile Include="Renders\States.cpp" />
+    <ClCompile Include="Geometries\Player.cpp" />
+    <ClCompile Include="Systems\Sounds.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Systems\Graphics.h" />
+    <ClInclude Include="Systems\Keyboard.h" />
+    <ClInclude Include="Systems\Mouse.h" />
+    <ClInclude Include="Systems\Time.h" />
+    <ClInclude Include="Systems\Window.h" />
+    <ClInclude Include="Utilities\Gui.h" />
+    <ClInclude Include="Utilities\SingletonBase.h" />
+    <ClInclude Include="Framework.h" />
+    <ClInclude Include="Interfaces\IObject.h" />
+    <ClInclude Include="Utilities\DirectHelper.h" />
+    <ClInclude Include="Renders\Resources\VertexType.h" />
+    <ClInclude Include="Renders\Resources\ShaderBuffer.h" />
+    <ClInclude Include="Renders\Resources\GlobalBuffer.h" />
+    <ClInclude Include="Renders\IA\VertexBuffer.h" />
+    <ClInclude Include="Renders\IA\IndexBuffer.h" />
+    <ClInclude Include="Renders\IA\InputLayout.h" />
+    <ClInclude Include="Renders\Shaders\VertexShader.h" />
+    <ClInclude Include="Renders\Shaders\PixelShader.h" />
+    <ClInclude Include="Renders\Shaders\IShader.h" />
+    <ClInclude Include="Geometries\Rect.h" />
+    <ClInclude Include="Geometries\TextureRect.h" />
+    <ClInclude Include="Geometries\ShadedTexture.h" />
+    <ClInclude Include="Geometries\BlurTexture.h" />
+    <ClInclude Include="Utilities\RenderTexture.h" />
+    <ClInclude Include="Utilities\BoundingBox.h" />
+    <ClInclude Include="Utilities\Animator.h" />
+    <ClInclude Include="Renders\Resources\Texture2D.h" />
+    <ClInclude Include="Utilities\Path.h" />
+    <ClInclude Include="Utilities\String.h" />
+    <ClInclude Include="Geometries\AnimationRect.h" />
+    <ClInclude Include="Renders\States.h" />
+    <ClInclude Include="Geometries\Player.h" />
+    <ClInclude Include="Systems\Sounds.h" />
+  </ItemGroup>
+</Project>
