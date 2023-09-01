@@ -30,6 +30,7 @@
     <ClCompile Include="Renders\States.cpp" />
     <ClCompile Include="Geometries\Player.cpp" />
     <ClCompile Include="Systems\Sounds.cpp" />
+    <ClCompile Include="Systems\Camera.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Systems\Graphics.h" />
@@ -65,5 +66,6 @@
     <ClInclude Include="Renders\States.h" />
     <ClInclude Include="Geometries\Player.h" />
     <ClInclude Include="Systems\Sounds.h" />
+    <ClInclude Include="Systems\Camera.h" />
   </ItemGroup>
 </Project>

@@ -12,8 +12,8 @@ class Program : public IObject
 private:
 	void Push(IObject* obj);
 	
-	VPBuffer* vpb = nullptr;
-	Matrix view, proj;
+	//VPBuffer* vpb = nullptr;
+	//Matrix view, proj;
 
 	vector<IObject*> objs;
 };

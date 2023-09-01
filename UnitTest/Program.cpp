@@ -12,7 +12,8 @@
 
 void Program::Init()
 {
-	{
+	// Ä«¸Þ¶ó
+	/*{
 		vpb = new VPBuffer();
 
 		D3DXMatrixLookAtLH
@@ -36,7 +37,8 @@ void Program::Init()
 
 		vpb->SetView(view);
 		vpb->SetProjection(proj);
-	}
+	}*/
+	Camera::Create();
 
 	//Push(new RectDemo);
 	//Push(new TextureDemo);
@@ -48,26 +50,32 @@ void Program::Init()
 
 void Program::Destroy()
 {
-	SAFE_DELETE(vpb);
+	//SAFE_DELETE(vpb);
 	for (IObject* obj : objs)
 	{
 		obj->Destroy();
 		SAFE_DELETE(obj);
 	}
+	Camera::Delete();
 }
 
 void Program::Update()
 {
 	for (IObject* obj : objs)
 		obj->Update();
+
+	Camera::Get()->Move();
 }
 
 void Program::Render()
 {
-	vpb->SetVSBuffer(1);
+	//vpb->SetVSBuffer(1);
 
 	for (IObject* obj : objs)
 		obj->Render();
+
+	Camera::Get()->UpdateView();
+	Camera::Get()->Render();
 }
 
 void Program::PostRender()
